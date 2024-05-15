@@ -1,5 +1,5 @@
 // array frigorifero con lista dei frutti all'interno
-const frigorifero = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'cocomero', 'limone', 'fragola'];
+const frigorifero = [ 'banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'cocomero', 'limone', 'fragola' ];
 // aggiungo elemento pesca alla lista dei frutti
 frigorifero.push('pesca');
 
