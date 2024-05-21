@@ -15,5 +15,5 @@ function confrontoParole(parola1, parola2) {
 
 confrontoParole(parola1, parola2);
 
-
+// usa return per uscire dalla funzione!!!!!!
 
