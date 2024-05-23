@@ -4,83 +4,143 @@
 // < Infine stampa separatamente i 3 array.
 
 
-let auto = [{
-    marca:('ford'),
-    modello:('kuga'),
-    alimentazione:('benzina')
+// let auto = [{
+//     marca:('ford'),
+//     modello:('kuga'),
+//     alimentazione:('benzina')
+// },
+// {
+//     marca:('ford'),
+//     modello:('kuga'),
+//     alimentazione:('benzina')
+// },
+// {
+//     marca:('ford'),
+//     modello:('kuga'),
+//     alimentazione:('metano')
+// },
+// {
+//     marca:('ford'),
+//     modello:('kuga'),
+//     alimentazione:('benzina')
+// },
+// {
+//     marca:('ford'),
+//     modello:('kuga'),
+//     alimentazione:('benzina')
+// },
+// {
+//     marca:('audi'),
+//     modello:('Auno'),
+//     alimentazione:('diesel')
+// },
+// {
+//     marca:('audi'),
+//     modello:('Auno'),
+//     alimentazione:('diesel')
+// },
+// {
+//     marca:('audi'),
+//     modello:('Auno'),
+//     alimentazione:('metano')
+// },
+// {
+//     marca:('audi'),
+//     modello:('Auno'),
+//     alimentazione:('diesel')
+// },
+// {
+//     marca:('audi'),
+//     modello:('Auno'),
+//     alimentazione:('diesel')
+// },
+// {
+//     marca:('fiat'),
+//     modello:('fiorino'),
+//     alimentazione:('gpl')
+// },
+// {
+//     marca:('fiat'),
+//     modello:('fiorino'),
+//     alimentazione:('gpl')
+// },
+// {
+//     marca:('fiat'),
+//     modello:('fiorino'),
+//     alimentazione:('elettrico')
+// },
+// {
+//     marca:('fiat'),
+//     modello:('fiorino'),
+//     alimentazione:('gpl')
+// },
+// {
+//     marca:('fiat'),
+//     modello:('fiorino'),
+//     alimentazione:('metano')
+// },
+// ];
+
+
+
+let persone = [{
+    nome:('sofia'),
+    cognome:('rossi'),
+    età:('91')
 },
 {
-    marca:('ford'),
-    modello:('kuga'),
-    alimentazione:('benzina')
+    nome:('carlo'),
+    cognome:('rossi'),
+    età:('22')
 },
 {
-    marca:('ford'),
-    modello:('kuga'),
-    alimentazione:('benzina')
+    nome:('giovanni'),
+    cognome:('rossi'),
+    età:('17')
 },
 {
-    marca:('ford'),
-    modello:('kuga'),
-    alimentazione:('benzina')
+    nome:('carlo'),
+    cognome:('rossi'),
+    età:('22')
 },
 {
-    marca:('ford'),
-    modello:('kuga'),
-    alimentazione:('benzina')
+    nome:('marina'),
+    cognome:('rossi'),
+    età:('12')
 },
 {
-    marca:('audi'),
-    modello:('Auno'),
-    alimentazione:('diesel')
+    nome:('carlo'),
+    cognome:('rossi'),
+    età:('22')
 },
 {
-    marca:('audi'),
-    modello:('Auno'),
-    alimentazione:('diesel')
+    nome:('mimmo'),
+    cognome:('rossi'),
+    età:('42')
 },
 {
-    marca:('audi'),
-    modello:('Auno'),
-    alimentazione:('diesel')
+    nome:('pippo'),
+    cognome:('rossi'),
+    età:('100')
 },
 {
-    marca:('audi'),
-    modello:('Auno'),
-    alimentazione:('diesel')
+    nome:('john'),
+    cognome:('rossi'),
+    età:('2')
 },
 {
-    marca:('audi'),
-    modello:('Auno'),
-    alimentazione:('diesel')
-},
-{
-    marca:('fiat'),
-    modello:('fiorino'),
-    alimentazione:('gpl')
-},
-{
-    marca:('fiat'),
-    modello:('fiorino'),
-    alimentazione:('gpl')
-},
-{
-    marca:('fiat'),
-    modello:('fiorino'),
-    alimentazione:('gpl')
-},
-{
-    marca:('fiat'),
-    modello:('fiorino'),
-    alimentazione:('gpl')
-},
-{
-    marca:('fiat'),
-    modello:('fiorino'),
-    alimentazione:('gpl')
+    nome:('carl'),
+    cognome:('rossi'),
+    età:('21')
 },
 ];
 
-auto.forEach(element => {
-    console.log(marca);
-});
+const abilitazione = [];
+
+for (let persona of persone) {
+    if (persona.età < 18) {
+        console.log(persona.nome + ' non può guidare');
+    } else {
+        console.log(persona.nome + ' può guidare');
+    }
+};
